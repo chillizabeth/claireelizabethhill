@@ -4,8 +4,8 @@ html, body {
 }
 
 .main-header-type {
-/*    font-family: 'Codystar', cursive;*/
-    font-family: 'Montserrat Subrayada', sans-serif;
+ font-family: 'Codystar', sans-serif;
+    /*font-family: 'Montserrat Subrayada', sans-serif;*/
     color: #fff;
     padding-top:90px;
     font-size:300%;
@@ -13,8 +13,8 @@ html, body {
 
 #header {
     height:200px;
-    background:#000;
-
+    background:url("images/sur_fog.jpg") no-repeat; 
+    background-size: 100% 100%;
 }
 
 #threeguys {
@@ -36,8 +36,17 @@ html, body {
     text-transform: uppercase;
     font-family: 'Hammersmith One', sans-serif;
     padding: 30px;
+    /*color:#F68E51;*/
 }
 
 .padding {
     height:100px;
+}
+
+.frontpagetitles {
+    font-size: 35px;
+    color: #00A78D;
+
+
+
 }
